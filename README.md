@@ -125,6 +125,16 @@ streamlit run streamlit_app.py
 
 ## 🖼️ Demo & Screenshots
 
+
+
+👉 **[Chest X-ray Pneumonia Detection - Live App](https://chestxray-2pwkqxb6jx9kgfx5hnmzm8.streamlit.app/)**
+
+Use this link to try the model live via **Streamlit Cloud**.
+
+* Upload a chest X-ray image (JPG / PNG)
+* The model predicts **NORMAL** or **PNEUMONIA**
+* Color-coded results for easy understanding (Green for NORMAL, Red for PNEUMONIA)
+
 ### App Screenshot (Prediction Display)
 
 ### Image After Preprocessing
