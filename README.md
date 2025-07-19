@@ -118,7 +118,7 @@ Three CNN architectures were designed:
 ## 🚀 Running the Streamlit App
 
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ---
@@ -127,16 +127,28 @@ streamlit run app.py
 
 ### App Screenshot (Prediction Display)
 
-| Upload                                       | Prediction                                           |
-| -------------------------------------------- | ---------------------------------------------------- |
-| ![Upload Example](assets/upload_example.png) | ![Prediction Example](assets/prediction_example.png) |
+### Image After Preprocessing
+![Upload Example](assets/image_prcessed_0.png)
 
-### Confusion Matrices
+### Train Loss
+![Upload Example](assets/train_loss_0.png)
+![Upload Example](assets/train_loss_1.png)
+![Upload Example](assets/train_loss_2.png)
 
-| Train                            | Validation                   | Test                           |
-| -------------------------------- | ---------------------------- | ------------------------------ |
-| ![Train CM](assets/train_cm.png) | ![Val CM](assets/val_cm.png) | ![Test CM](assets/test_cm.png) |
+### Train Accuracy
+![Upload Example](assets/train_acc_0.png)
+![Upload Example](assets/train_acc_1.png)
+![Upload Example](assets/train_acc_2.png)
 
+### Classification Report
+![Upload Example](assets/cr0.png)
+![Upload Example](assets/cr1.png)
+![Upload Example](assets/cr2.png)
+
+### Confusion Matrix
+![Upload Example](assets/cm0.png)
+![Upload Example](assets/cm1.png)
+![Upload Example](assets/cm2.png)
 ---
 
 ## 🛠️ Requirements
@@ -150,17 +162,7 @@ pip install tensorflow opencv-python streamlit seaborn scikit-learn matplotlib n
 ## 📊 Results
 
 | Model Name      | Best Val Accuracy |
-| --------------- | ----------------- |
-| simple\_cnn\_v1 | \~XX%             |
-| medium\_cnn\_v1 | \~XX%             |
-| long\_cnn\_v1   | \~XX%             |
-
-*(Replace XX% with your results)*
-
----
-
-## 📌 Future Work
-
-* Experiment with attention mechanisms (CBAM / SE-Blocks)
-* Apply advanced augmentation (CutMix, MixUp)
-* Deploy mobile app version (Flutter + TFLite)
+| --------------- |-------------------|
+| simple\_cnn\_v1 | \94%              |
+| medium\_cnn\_v1 | \96%              |
+| long\_cnn\_v1   | \94%              |
