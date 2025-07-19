@@ -11,7 +11,7 @@ def main():
     st.title('Chest X-ray Detection')
 
     with st.expander('Readme'):
-        with open("README.md", 'r') as f:
+        with open("README.md", 'r', encoding='UTF-8') as f:
             st.write(f.read())
 
     cols = st.columns([0.6, 0.4])
