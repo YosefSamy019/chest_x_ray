@@ -1,0 +1,7 @@
+/long_cnn_v1_deploy.tflite
+/models_cache/long_cnn_v1.history.json
+/models_cache/long_cnn_v1.weights.h5
+/models_cache/medium_cnn_v1.history.json
+/models_cache/medium_cnn_v1_arch.png
+/models_cache/medium_cnn_v1.weights.h5
+/medium_cnn_v1_deploy.tflite
